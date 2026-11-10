@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy notice · NAS Backups</title>
+<link rel="icon" href="nas-backups-logo.png">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f7fb;color:#14233e;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+main{max-width:780px;margin:52px auto;padding:36px;background:white;border:1px solid #dbe2ee;border-radius:24px}
+nav{display:flex;gap:24px;font-size:15px}
+a{color:#285aad;text-underline-offset:3px}
+.hero{display:flex;align-items:center;gap:30px;margin:28px 0}
+.hero img{width:180px;height:180px;object-fit:contain}
+h1{font-size:40px;line-height:1.1;letter-spacing:-1px;margin:0 0 14px}
+h2{font-size:22px;margin-top:30px}
+p,li{font-size:17px}
+.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:2px;color:#52647f}
+footer{margin-top:36px;padding-top:22px;border-top:1px solid #dbe2ee;font-size:14px;color:#52647f}
+@media(max-width:600px){main{margin:18px;padding:24px}
+.hero{display:block}
+.hero img{width:145px;height:145px}
+h1{font-size:34px}}
+</style>
+</head>
+<body>
+<main>
+<nav aria-label="Main navigation">
+<a href="./">NAS Backups</a>
+<a href="privacy.html">Privacy notice</a>
+</nav>
+<h1 style="margin-top:36px">Privacy notice</h1>
+<p class="eyebrow">Updated November 10, 2026</p>
+<p>NAS Backups is a personal-use backup and synchronization tool operated by Trevor Morgan.</p>
+<h2>Data access and use</h2>
+<p>The tool uses authorized access to Google Drive to read file contents and metadata, synchronize configured data, upload encrypted NAS backups, verify stored backups, and restore data when requested by the account owner. Its Drive permission also permits editing and deleting files as required by configured backup maintenance.</p>
+<h2>Storage and protection</h2>
+<p>NAS backup content is encrypted before upload to Google Drive. Authorization credentials and recovery keys are stored privately by the operator. Google Drive stores the backup objects and associated service metadata under the account owner’s Google account.</p>
+<h2>Sharing and retention</h2>
+<p>Google user data is used for the owner’s backup, synchronization, verification, and recovery tasks. It is not sold, used for advertising, or used to train AI models. Retention is controlled by the owner’s backup configuration. Google processes data under the account owner’s applicable Google terms and privacy settings.</p>
+<h2>Access controls</h2>
+<p>The account owner can revoke the tool’s access through <a href="https://myaccount.google.com/connections">Google Account connections</a>. Revoking access prevents future authorized operations. Existing copies remain in their configured storage locations until the owner removes them.</p>
+<h2>Contact</h2>
+<p>The operator can be contacted through the <a href="https://github.com/trevormorgan/nas-backups/issues">project’s GitHub issues</a>. Keep credentials, recovery keys, and private file contents out of public issues.</p>
+<footer>Personal-use software operated by Trevor Morgan. <a href="https://github.com/trevormorgan/nas-backups">Project information</a>
+</footer>
+</main>
+</body>
+</html>
